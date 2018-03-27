@@ -1,0 +1,27 @@
+{
+  "name": "OOPbootcamp30",
+  "version": "1.0.0",
+  "description": "This an OOP program to demonstate the concept of OOP.\r This program models a school system, where teacher and students inherits from general class person. \r Different methods can be called for each class e.g, profile- to get profile, calculateSalary- to calculate salary for teacher, calculateScore to calculate score for student",
+  "main": "oop.js",
+  "scripts": {
+    "test": "mocha test.js --compilers js:babel-register --exit",
+    "start": "node oop.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oloyedesinmiloluwa/OOPbootcamp30.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oloyedesinmiloluwa/OOPbootcamp30/issues"
+  },
+  "homepage": "https://github.com/Oloyedesinmiloluwa/OOPbootcamp30#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
