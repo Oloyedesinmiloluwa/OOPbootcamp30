@@ -6,7 +6,6 @@ class Person {
     this.interest = interest;
   }
   profile(){
-    console.log(this.name+' is '+this.age+' years old'+' and lives in '+this.address);
     return this.name+' is '+this.age+' years old'+' and lives in '+this.address;
   }
   interestMethod(){
@@ -20,7 +19,6 @@ class Person {
   class Student extends Person {
     calculateResult(subject,score){
     let totalScore = score.score[0] + score.score[1] + score.score[2] + score.score[3]  ;
-    console.log(this.name+'\'s'+' totalScore is:',totalScore);
     return totalScore;
     }
   }
@@ -32,12 +30,10 @@ class Person {
     }
     profile(){
       let getInterest = super.interestMethod();
-      console.log(this.title +' '+ this.name+' is a '+ this.subject + ' teacher and lives in '+this.address+'.\n'+getInterest);
       return this.title +' '+ this.name+' is a '+ this.subject + ' teacher and lives in '+this.address+'.\n'+getInterest;
     }
     calculateSalary(basicSalary,benefit){
       let totalSalary = basicSalary + benefit;
-      console.log('Total Salary for '+ this.name + 'is ' + totalSalary);
       return totalSalary;
     }
   }
