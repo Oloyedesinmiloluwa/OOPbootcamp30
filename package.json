@@ -5,7 +5,7 @@
   "main": "oop.js",
   "scripts": {
     "test": "mocha test.js --compilers js:babel-register --exit",
-    "start": "node oop.js"
+    "start": "babel-node oop.js"
   },
   "repository": {
     "type": "git",
